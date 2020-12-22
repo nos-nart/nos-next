@@ -1,0 +1,23 @@
+{
+  "name": "nos-next-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "framer-motion": "^3.1.1",
+    "next": "10.0.3",
+    "postcss": "8.1.8",
+    "postcss-import": "^14.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-scroll": "^1.8.1",
+    "react-slick": "^0.27.13",
+    "slick-carousel": "^1.8.1",
+    "tailwind": "2.0.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
