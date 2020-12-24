@@ -3,3 +3,14 @@
 @tailwind  components;
 /* purgecss end ignore */
 @tailwind  utilities;
+
+/* Slideshow */
+.slick-dots li {
+  @apply inline-block;
+}
+.slick-dots span {
+  @apply bg-gray-500;
+}
+.slick-dots .slick-active span {
+  @apply bg-green-500 rounded-l-full rounded-r-full w-12;
+}
