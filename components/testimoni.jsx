@@ -39,11 +39,11 @@ export const Testimoni = ({ testimonies }) => {
   const [sliderRef, setSliderRef] = useState(null);
 
   return (
-    <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
-      <div className="my-12">
+    <section className="my-24" id="testimoni">
+      <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="my-12">
           <div className="text-center text-xl font-extrabold">
-            <Location className="w-10 h-10 inline-block"/>
+            <Location className="w-12 h-12 inline-block"/>
             <span className="text-green-500">Testimonial</span>
           </div>
           <p className="text-center text-gray-400 my-3 max-w-2xl mx-auto">
@@ -63,6 +63,7 @@ export const Testimoni = ({ testimonies }) => {
                   <div className="flex order-2 xl:order-1">
                     <div className="overflow-hidden w-14 h-14 rounded-full">
                       <Image
+                        className="object-cover"
                         src={testimoni.image}
                         height={100}
                         width={100}
@@ -108,7 +109,7 @@ export const Testimoni = ({ testimonies }) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -5,6 +5,10 @@
 @tailwind  utilities;
 
 /* Slideshow */
+.slick-dots {
+  margin-top: 1.75rem !important;
+}
+
 .slick-dots li {
   @apply inline-block;
 }
