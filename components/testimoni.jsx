@@ -9,7 +9,7 @@ export const Testimoni = ({ testimonies }) => {
     customPaging: function (i) {
       return (
         <a className="">
-          <span className="mx-2 rounded-l-full rounded-r-full h-4 w-4 block cursor-pinter transition-all "></span>
+          <span className="mx-2 rounded-l-full rounded-r-full h-4 w-4 block cursor-pinter transition-all"></span>
         </a>
       );
     },
@@ -20,7 +20,7 @@ export const Testimoni = ({ testimonies }) => {
     slidesToScroll: 2,
     responsive: [
       {
-        breakpoint: 770,
+        breakpoint: 900,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -28,7 +28,7 @@ export const Testimoni = ({ testimonies }) => {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
