@@ -6,7 +6,7 @@ export * from './location';
 export * from './netflix';
 export * from './magic-leap';
 export * from './mozilla-vr';
-export * from './authO';
+export * from './autho';
 export * from './discord';
 export * from './amazon';
 export * from './heart';
