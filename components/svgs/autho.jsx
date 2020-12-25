@@ -1,4 +1,4 @@
-export const AuthO = (props) => (
+export const AuthOIcon = (props) => (
   <svg
     {...props}
     viewBox="0 0 122 44"

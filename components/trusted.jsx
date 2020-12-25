@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-import { Netflix, MagicLeap, MozillaVR, AuthO, Discord, Amazon, Heart } from './svgs';
+import { Netflix, MagicLeap, MozillaVR, AuthOIcon, Discord, Amazon, Heart } from './svgs';
 
 const settings = {
   customPaging: () => null,
@@ -51,12 +51,12 @@ export const Trusted = () => {
           <div className="mx-10"><Netflix className="w-40 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><MagicLeap className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><MozillaVR className="w-44 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
-          <div className="mx-10"><AuthO className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
+          <div className="mx-10"><AuthOIcon className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><Amazon className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><Netflix className="w-40 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
-          <div className="mx-10"><AuthO className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
+          <div className="mx-10"><AuthOIcon className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><Discord className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
-          <div className="mx-10"><AuthO className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
+          <div className="mx-10"><AuthOIcon className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><MozillaVR className="w-44 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
         </Slider>
       </div>
@@ -66,10 +66,10 @@ export const Trusted = () => {
           <div className="mx-10"><MozillaVR className="w-44 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><MagicLeap className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><Discord className="w-40 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
-          <div className="mx-10"><AuthO className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
+          <div className="mx-10"><AuthOIcon className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><Amazon className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><MagicLeap className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
-          <div className="mx-10"><AuthO className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
+          <div className="mx-10"><AuthOIcon className="w-32 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><Discord className="w-40 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
           <div className="mx-10"><MozillaVR className="w-44 text-gray-300 hover:text-gray-900 transition-all duration-200"/></div>
         </Slider>
