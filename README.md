@@ -7,7 +7,7 @@
 + @tailwindcss/typography
 + react-sroll
 
-![example](https://github.com/nos-nart/nos-react-swr/blob/master/demo.gif)
+![example](https://github.com/nos-nart/nos-next-landing-page/blob/master/next-landing-page.gif)
 
 ### todo
 - [ ] add animtion
