@@ -42,7 +42,7 @@ export const Trusted = () => {
         <p className="text-green-500 font-extrabold text-2xl">
           <Heart className="w-10 h-10 inline-block" /> Trusted by thousands customer
         </p>
-        <p className="text-gray-400 max-w-xl mx-auto mt-3">
+        <p className="text-gray-400 max-w-xl mx-auto mt-3 sm:px-0 px-3">
           The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33.
         </p>
       </div>

@@ -17,3 +17,7 @@ export * from './app-store';
 export * from './google-play';
 export * from './service';
 export * from './qrcode';
+export * from './about-icon';
+export * from './services-icon-mobile';
+export * from './customer-icon';
+export * from './testimoni-icon';

@@ -5,8 +5,8 @@ import { AppStore, GooglePlay } from './svgs';
 export const Hero = (props) => {
   return (
     <section className="mt-24 max-w-screen-xl mx-auto px-8 xl:px-16" id="about">
-      <div className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-20">
-        <div className="flex justify-center w-full">
+      <div className="grid grid-flow-row sm:grid-flow-col sm:grid-cols-2 gap-8 py-6 sm:py-20">
+        <div className="hidden md:flex justify-center w-full">
           <div style={{ position: 'relative', width: '400px', height: '252px' }}>
             <Image
               alt="hero"
