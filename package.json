@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.3.1",
@@ -18,7 +20,9 @@
     "react-scroll": "^1.8.1",
     "react-slick": "^0.27.13",
     "slick-carousel": "^1.8.1",
-    "tailwind": "2.4.1",
-    "tailwindcss": "^2.0.2"
-  }
+    "tailwind": "2.4.0",
+    "tailwindcss": "^2.0.2",
+    "snyk": "^1.437.4"
+  },
+  "snyk": true
 }
