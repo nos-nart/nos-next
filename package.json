@@ -18,7 +18,7 @@
     "react-scroll": "^1.8.1",
     "react-slick": "^0.27.13",
     "slick-carousel": "^1.8.1",
-    "tailwind": "2.0.1",
+    "tailwind": "2.4.1",
     "tailwindcss": "^2.0.2"
   }
 }
