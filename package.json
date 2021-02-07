@@ -10,7 +10,7 @@
     "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.3.1",
+    "@tailwindcss/typography": "^0.4.0",
     "framer-motion": "^3.1.1",
     "postcss": "8.2.4",
     "framer-motion": "^3.1.3",
